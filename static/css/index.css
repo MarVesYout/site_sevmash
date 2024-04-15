@@ -1,0 +1,52 @@
+.intro::before {
+    content: '';
+    position: absolute;
+    width: 1135.96px;
+    height: 584.97px;
+    transform: rotate(130deg);
+    left: 700px;
+    top: 350px;
+    background-image: url(../images/screw.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 1135.96px 584.97px;
+    z-index: -1;
+}
+
+.intro_inner {
+    max-width: 700px;
+}
+
+.intro_title {
+    margin-top: 150px;
+}
+
+h1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 68px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+h5 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+h2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #FFF;
+}
